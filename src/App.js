@@ -1,11 +1,21 @@
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "@mui/material/styles";
+import { themeCreation } from "./theme/themeDesign";
 
 function App() {
-  return (
-    <div className="App">
+	const [theme] = useState(themeCreation());
 
-    </div>
-  );
+	return (
+		<ThemeProvider theme={theme}>
+			<BrowserRouter>
+
+				{/* <LoadingModal />
+				<NotificationContainer /> */}
+			</BrowserRouter>
+		</ThemeProvider>
+	);
 }
 
 export default App;
