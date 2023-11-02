@@ -17,6 +17,11 @@
 	font-weight: bold;
 	margin: 15px 0 0;
 }
+.heading-smaller {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 15px 0 0;
+}
 
 .heading2 {
 	font-size: 1.2em;
@@ -88,7 +93,8 @@
         font-size: 0.7em;
         margin: 0 5px;
     }
-    .heading{
+    .heading, 
+	.heading-smaller{
         font-size: 1.1em;
         margin-left: 5px;
     }
@@ -109,7 +115,7 @@
 }
 
 .divider{
-    width: 100%;
+    width: 90%;
     animation: myAnim 1.5s ease 0s 1 normal forwards;
 }
 
