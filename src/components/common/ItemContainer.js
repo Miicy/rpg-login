@@ -13,7 +13,7 @@ function ItemContainer({ item, template }) {
           }
         };
 
-	console.log(item);
+	// console.log(item);
 
     // if (!item) return null;
     // if (!template) return null;

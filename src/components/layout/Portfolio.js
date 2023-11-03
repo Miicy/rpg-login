@@ -28,7 +28,7 @@ function Portfolio() {
 			}
 		}
 	}, [scrollPosition]);
-	console.log(itemData, templateData);
+	// console.log(itemData, templateData);
 	return (
 		<div className="portfolio" id="portfolio-container">
 			<div className="heading-smaller"> - RECENT WORK -</div>
