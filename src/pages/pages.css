@@ -118,11 +118,6 @@
     width: 90%;
     animation: myAnim 1.5s ease 0s 1 normal forwards;
 }
-
-.divider.divider-bottom {
-    transform: rotate(180deg);
-  }
-
 .about-me-content-container{
     height:80%;
     display: flex;

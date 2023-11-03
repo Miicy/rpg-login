@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { ReactComponent as Divider } from "../../media/divider.svg";
+import { ReactComponent as DividerAbout } from "../../media/divider.svg";
+import { ReactComponent as DividerAboutUpside } from "../../media/divider-upside.svg";
 import text from "../../media/text.json";
 import wordFile from "../../media/CV.pdf";
 import { useState } from "react";
@@ -33,7 +34,7 @@ function AboutMe() {
 	return (
 		<div id="about-me-container" className="about-me-container">
 			<div className="about-me">
-				<Divider className="divider" />
+				<DividerAbout className="divider" />
 				<div className="about-me-content-container">
 					<p className="heading-smaller">ABOUT ME</p>
 					<p>{text.text}</p>
@@ -41,7 +42,7 @@ function AboutMe() {
 						Download Resume
 					</a>
 				</div>
-				<Divider className="divider divider-bottom" />
+				<DividerAboutUpside className="divider"/>
 			</div>
 		</div>
 	);
