@@ -16,24 +16,24 @@ function Header() {
 	  }
 
 	  function handlePortfolioClick() {
-		const aboutMeSectionY = 1600; 
+		const aboutMeSectionY = 1800; 
 	
 		scrollToPosition(aboutMeSectionY);
 	  }
 
 	  function handlePortfolioContact() {
-		const aboutMeSectionY = 2000; 
+		const aboutMeSectionY = 2200; 
 	
 		scrollToPosition(aboutMeSectionY);
 	  }
 
 	return (
-		<div class="header">
-			<div class="heading-left-container">
+		<div className="header">
+			<div className="heading-left-container">
 				<p className="heading">Milica Pantelic</p>
 				<p className="heading2">Web developer</p>
 			</div>
-			<div class="heading-right-container">
+			<div className="heading-right-container">
 				<p className="links" onClick={handleAboutMeClick}>
 					About me
 				</p>

@@ -4,6 +4,7 @@ import { ReactComponent as DividerAboutUpside } from "../../media/divider-upside
 import text from "../../media/text.json";
 import wordFile from "../../media/CV.pdf";
 import { useState } from "react";
+import "./layout.css"
 
 function AboutMe() {
 	const [scrollPosition, setScrollPosition] = useState(0);
@@ -36,7 +37,7 @@ function AboutMe() {
 			<div className="about-me">
 				<DividerAbout className="divider" />
 				<div className="about-me-content-container">
-					<p className="heading-smaller">ABOUT ME</p>
+					<p className="heading-smaller">- ABOUT ME -</p>
 					<p>{text.text}</p>
 					<a href={wordFile} download="Resume.pdf" className="links resume">
 						Download Resume

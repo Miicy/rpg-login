@@ -23,6 +23,7 @@ body {
 .content {
 	margin-top: 50px;
 	max-width: 1000px;
+	min-width: 350px;
 	z-index: 10;
 }
 
@@ -140,4 +141,6 @@ body {
 	margin-top: 800px;
 	min-height:2000px;
 	height:fit-content;
+	display: flex;
+	flex-direction: column;
   }
