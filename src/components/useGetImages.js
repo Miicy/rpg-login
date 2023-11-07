@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import fire from "../media/fire2.png";
 import pink from "../media//pink2.png";
 import ocean from "../media/ocean2.png";
@@ -10,28 +10,30 @@ import town from "../media/town2.png";
 import desert from "../media/sand2.png";
 import grass from "../media/sand2.png";
 
+const imageUrls = [
+	ocean,
+	jungle,
+	snow,
+	fire,
+	alien,
+	pink,
+	waterfall,
+	town,
+	desert,
+	grass,
+];
+
 export function useGetImages() {
-    const [images, setImages] = useState/* eslint-disable no-unused-vars */([
-      ocean,
-      jungle,
-      snow,
-      fire,
-      alien,
-      pink,
-      waterfall,
-      town,
-      desert,
-      grass,
-    ]);
-  
-    const [currentIndex, setCurrentIndex] = useState(0);
-  
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentIndex((currentIndex + 1) % images.length);
-      }, 3000);
-      return () => clearInterval(interval);
-    }, [currentIndex, images.length]);
-  
-    return { currentImage: images[currentIndex] };
-  }
+	const [images, setImages] = useState(imageUrls);
+
+	const [currentIndex, setCurrentIndex] = useState(0);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentIndex((currentIndex + 1) % images.length);
+		}, 3000);
+		return () => clearInterval(interval);
+	}, [currentIndex, images.length]);
+
+	return { currentImage: images[currentIndex] };
+}
