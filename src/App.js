@@ -1,18 +1,8 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import Home from "./pages/Home";
+import LandingPage from "./components/LandingPage.js";
 
 function App() {
-	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<Home />} />
-			</Routes>
-			{/* <LoadingModal />
-				<NotificationContainer /> */}
-		</BrowserRouter>
-	);
+	return <LandingPage />;
 }
 
 export default App;
