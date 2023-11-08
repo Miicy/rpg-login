@@ -4,7 +4,7 @@ import { ReactComponent as Friends } from "../media/friends.svg";
 import FormLogin from "./FormLogin";
 import { isMobile } from "react-device-detect";
 import { useMediaQuery } from "@mui/material";
-import { useGetImages } from "./useGetImages";
+import { useGetImages } from "../helpers/useGetImages";
 import pink from "../media/pink2.png";
 
 function LandingPage() {

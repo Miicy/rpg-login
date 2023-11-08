@@ -25,7 +25,7 @@ const imageUrls = [
 
 export function useGetImages() {
 	const [images, setImages] = useState(imageUrls);
-
+	
 	const [currentIndex, setCurrentIndex] = useState(0);
 
 	useEffect(() => {
