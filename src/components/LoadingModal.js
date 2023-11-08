@@ -12,7 +12,7 @@ const LoadingModal = () => {
 	return (
 		<Backdrop
 			sx={{
-				color: "black",
+				color: "white",
 				zIndex: (theme) => theme.zIndex.drawer + 1,
 				display: "flex",
 				flexDirection: "column",

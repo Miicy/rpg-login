@@ -12,8 +12,6 @@ function App() {
 		if (!window.location.hash) {
 		  dispatch(setDataState(DATA_STATE.DATA_STATE_LOADING));
 		  window.location = window.location + "#loaded";
-	
-		  // Delay the page reload for 1 second (1000 milliseconds)
 		  setTimeout(() => {
 			window.location.reload();
 		  }, 1000);
