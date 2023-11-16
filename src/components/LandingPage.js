@@ -6,6 +6,7 @@ import { isMobile } from "react-device-detect";
 import { useMediaQuery } from "@mui/material";
 import { useGetImages } from "../helpers/useGetImages";
 import pink from "../media/pink2.png";
+import fire from "../media/fire2.png";
 
 function LandingPage() {
 	const isScreenSmall = useMediaQuery("(max-width:850px)");
@@ -21,7 +22,7 @@ function LandingPage() {
 			<div
 				className="friends-background"
 				style={{
-					backgroundImage: `url(${backgroundImage2})`,
+					backgroundImage: `url(${backgroundImage2 ? backgroundImage2 : fire})`,
 				}}
 			></div>
 			<div
