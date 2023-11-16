@@ -10,14 +10,22 @@ import pink from "../media/pink2.png";
 function LandingPage() {
 	const isScreenSmall = useMediaQuery("(max-width:850px)");
 
-	const { currentImage } = useGetImages();
+	const { currentImage, currentImage2 } = useGetImages();
+	console.log(currentImage);
 
 	const backgroundImage = isMobile || isScreenSmall ? pink : currentImage;
+	const backgroundImage2 = isMobile || isScreenSmall ? pink : currentImage2;
 
 	return (
 		<div className="container">
 			<div
 				className="friends-background"
+				style={{
+					backgroundImage: `url(${backgroundImage2})`,
+				}}
+			></div>
+			<div
+				className="friends-background-onTop"
 				style={{
 					backgroundImage: `url(${backgroundImage})`,
 				}}
