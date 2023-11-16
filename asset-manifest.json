@@ -1,26 +1,18 @@
 {
   "files": {
-    "main.css": "/rpg-login/static/css/main.d7c64b7d.css",
-    "main.js": "/rpg-login/static/js/main.6f2b582b.js",
+    "main.css": "/rpg-login/static/css/main.d0988766.css",
+    "main.js": "/rpg-login/static/js/main.b6ff2bda.js",
     "static/js/787.989259b3.chunk.js": "/rpg-login/static/js/787.989259b3.chunk.js",
     "static/media/pink2.png": "/rpg-login/static/media/pink2.89853e47c42c3e344e0a.png",
-    "static/media/waterfall2.png": "/rpg-login/static/media/waterfall2.abb2e6e35f1dd6627e1c.png",
-    "static/media/fire2.png": "/rpg-login/static/media/fire2.5eb69ce8324ab3c88e1d.png",
-    "static/media/jungle2.png": "/rpg-login/static/media/jungle2.9e6e86060a6e8dda9934.png",
-    "static/media/town2.png": "/rpg-login/static/media/town2.576b278cff686a53e0b0.png",
-    "static/media/sand2.png": "/rpg-login/static/media/sand2.d706831339510d0baa4a.png",
-    "static/media/alien2.png": "/rpg-login/static/media/alien2.e95057ab41e2becec1d8.png",
-    "static/media/snow2.png": "/rpg-login/static/media/snow2.e83ed9aa4c324bda29ef.png",
-    "static/media/ocean2.png": "/rpg-login/static/media/ocean2.4e9d34b2073639056e6c.png",
     "static/media/friends.svg": "/rpg-login/static/media/friends.c8407f68c1825ed123cc0104062c0385.svg",
     "static/media/logo.svg": "/rpg-login/static/media/logo.951dbccba56f52d9bbf6203650f65039.svg",
     "index.html": "/rpg-login/index.html",
-    "main.d7c64b7d.css.map": "/rpg-login/static/css/main.d7c64b7d.css.map",
-    "main.6f2b582b.js.map": "/rpg-login/static/js/main.6f2b582b.js.map",
+    "main.d0988766.css.map": "/rpg-login/static/css/main.d0988766.css.map",
+    "main.b6ff2bda.js.map": "/rpg-login/static/js/main.b6ff2bda.js.map",
     "787.989259b3.chunk.js.map": "/rpg-login/static/js/787.989259b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7c64b7d.css",
-    "static/js/main.6f2b582b.js"
+    "static/css/main.d0988766.css",
+    "static/js/main.b6ff2bda.js"
   ]
 }
