@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rpg-login/static/css/main.d0988766.css",
+    "main.css": "/rpg-login/static/css/main.9635f635.css",
     "main.js": "/rpg-login/static/js/main.0f6f8e62.js",
     "static/js/787.989259b3.chunk.js": "/rpg-login/static/js/787.989259b3.chunk.js",
     "static/media/pink2.png": "/rpg-login/static/media/pink2.89853e47c42c3e344e0a.png",
@@ -8,12 +8,12 @@
     "static/media/friends.svg": "/rpg-login/static/media/friends.c8407f68c1825ed123cc0104062c0385.svg",
     "static/media/logo.svg": "/rpg-login/static/media/logo.951dbccba56f52d9bbf6203650f65039.svg",
     "index.html": "/rpg-login/index.html",
-    "main.d0988766.css.map": "/rpg-login/static/css/main.d0988766.css.map",
+    "main.9635f635.css.map": "/rpg-login/static/css/main.9635f635.css.map",
     "main.0f6f8e62.js.map": "/rpg-login/static/js/main.0f6f8e62.js.map",
     "787.989259b3.chunk.js.map": "/rpg-login/static/js/787.989259b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0988766.css",
+    "static/css/main.9635f635.css",
     "static/js/main.0f6f8e62.js"
   ]
 }
